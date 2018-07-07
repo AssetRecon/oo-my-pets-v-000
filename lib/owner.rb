@@ -52,15 +52,19 @@ attr_reader :species
   end
 
   def walk_dogs
-    self.pets[:dogs].each { |dog| dog.mood = "happy" }
+    self.pets[:dogs].each {|dog| dog.mood = "happy" }
   end
 
   def play_with_cats
-    self.pets[:cats].each { |cat| cat.mood = "happy"}
+    self.pets[:cats].each {|cat| cat.mood = "happy"}
   end
 
   def feed_fish
     self.pets[:fishes].each  {|fish| fish.mood = "happy"}
+  end
+
+  def sell_pets
+    
   end
 
 
